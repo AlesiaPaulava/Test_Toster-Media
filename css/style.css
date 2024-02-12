@@ -319,7 +319,6 @@ img {
 
 /*hero*/
 .hero {
-  height: 100vh;
   padding-top: 20px;
   padding-bottom: 32px;
   background-color: var(--color-black);
@@ -775,19 +774,22 @@ img {
 
 /*information*/
 .information {
+  padding-top: 16px;
+  padding-bottom: 16px;
   background-color: var(--color-graphite-black);
 }
 
 .information__container {
   display: flex;
   flex-direction: column;
-  padding: 16px 24px;
+  padding-right: 25px;
+  padding-left: 25px;
   justify-content: center;
   align-items: center;
 }
 
 .information__text {
-  margin-bottom: 20px;
+  margin-bottom: 8px;
   color: var(--color-gray);
   text-align: center;
   font-size: 8px;
